@@ -95,13 +95,14 @@ my_new_string = my_string.replace("ISD", "Interactive Software Design")
 print(my_new_string)
 
 my_string_length = len(my_string)
+print(my_string_length)
 # %%
 #Task 2: f-Strings
 my_name = "Kofi"
 number_of_classes = 3
 campus = "Paisley"
 
-my_text = f"My name is {my_name} and I amd studying {number_of_classes} in {campus}"
+my_text = f"My name is {my_name} and I amd studying {number_of_classes} classes in {campus}"
 
 print(my_text)
 # %%
