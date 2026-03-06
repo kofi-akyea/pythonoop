@@ -8,10 +8,15 @@ var_2 = 1 #Type = int
 var_3 = 3.14159 #Type = float
 var_4 = "Hello World" #Type = string
 # %%
+var_1 = True #Type = boolean
+var_2 = 1 #Type = int
+var_3 = 3.14159 #Type = float
+var_4 = "Hello World" #Type = string
 print(type(var_1))
 print(type(var_2))
 print(type(var_3))
 print(type(var_4))
+
 # %%
 # Exercise 1 task 2: Casting Variables
 my_int = 5
@@ -21,6 +26,7 @@ print(my_int)
 print(my_bool)
 print(my_float)
 
+# %%
 my_int_float = float(my_int)
 my_float_int = int(my_float)
 my_bool_int = int(my_bool)
