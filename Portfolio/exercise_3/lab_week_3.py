@@ -35,9 +35,11 @@ def calculateTax(income, taxRate):
     return taxAmount
 
 taxAmount = calculateTax(50000, 0.2)
+
 print(taxAmount)
 # %%
 #Compound Interest Calculator
+   
 def compoundInterest(principal, duration, interestRate):
     if interestRate < 0 or interestRate > 1:
         print("Please enter a decimal number between 0 and 1 for the interest rate")
@@ -73,5 +75,10 @@ print("Marks obtained:", num)
 # %%
 #Section 3: Your first larger-scale Python programme
 ##Exercise 4: Complete template program
+
+#%%
+
+
+
 
 

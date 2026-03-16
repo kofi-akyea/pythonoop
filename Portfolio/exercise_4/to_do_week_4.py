@@ -14,7 +14,7 @@ class TaskList:
         due_date_obj = now + timedelta(days=days_to_complete)
         due_on = due_date_obj.strftime("%Y-%m-%d")
 
-        # 3. Store task as a dictionary for better organization
+        # 3. Store task
         task_entry = {
             "name": task_name,
             "added": added_on,

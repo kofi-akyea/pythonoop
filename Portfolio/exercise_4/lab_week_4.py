@@ -41,3 +41,22 @@ if choice == "1":
     title = input("Enter a task: ")
     task = Task(title)
     self.add_task(task)
+    
+    
+    
+    
+#%%
+class TaskList:
+    def __init__(self, owner):
+        self.owner = owner
+        self.tasks = []
+
+my_task_list = TaskList("Kofi")
+print(my_task_list.owner)
+# %%
+my_task_list = TaskList("Kofi")
+my_task_list.tasks = ["Do Homework", "Do Laundry", "Go Shopping"]
+my_task_list.view_tasks()
+my_task_list.remove_task(1)
+my_task_list.view_tasks()
+# %%
